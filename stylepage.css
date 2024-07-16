@@ -1,0 +1,225 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0d1c9d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    width: 110px;
+    height: 50px;
+    z-index: 20;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.superscript {
+    font-size: 0.6em;
+    position: relative;
+    top: -0.5em;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+}
+
+.page1 {
+    position: relative;
+    background: url('bag.png') no-repeat center center, #ffd700;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.page1 h1 {
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    text-align: center;
+}
+
+.page1 p {
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Brush Script MT', cursive;
+    text-align: right;
+    margin: 0;
+    width: 100%;
+}
+
+.page2 {
+    flex-direction: column;
+    overflow-y: scroll;
+    background: #f8f9fa;
+    background-color: #ffd700;
+}
+
+.page2 section {
+    padding: 60px 20px;
+}
+
+#features {
+    background: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#testimonials {
+    background: #f1f1f1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: cadetblue;
+    color: #333;
+}
+
+.image-button {
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.image-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#call-to-action {
+    text-align: center;
+    margin-top: 50px;
+    background: #ffffff;
+    background-color: rgb(201, 162, 210);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#call-to-action h2,
+#call-to-action p {
+    margin-bottom: 20px;
+}
+
+#call-to-action button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#call-to-action button:hover {
+    background-color: #0056b3;
+}
+
+#contact-details {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact-details h2 {
+    margin-bottom: 20px;
+}
+
+#contact-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#contact-details .contact-info {
+    margin-bottom: 10px;
+}
+
+#contact-details .contact-info a {
+    color: #007bff;
+    /* Blue color for links */
+    text-decoration: none;
+}
+
+#contact-details .contact-info a:hover {
+    text-decoration: underline;
+}
+
+#contact-details {
+    background-color: grey;
+    justify-content: flex-start;
+}
